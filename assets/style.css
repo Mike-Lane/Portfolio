@@ -222,6 +222,78 @@ header nav ul li a:hover {
 #contact a:hover {
     color: var(--tertiary-color);
 }
-
-
 /*End Contact*/
+
+/*Media queries for smaller screens and phones*/
+@media screen and (max-width: 980px) {
+    header {
+        padding: 0;
+        justify-content: center;
+        position: relative;
+    }
+ 
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+ }
+ 
+ @media screen and (max-width: 768px) {
+     section {
+         padding: 0;
+         text-overflow: none;
+         margin: 0%;
+     }
+ header nav ul li a{
+     font-size: 30px;
+ }
+ h1 a{
+     margin: 20ps auto;
+ }
+     
+ }
+ 
+ @media screen and (max-width: 575px) {
+body{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    display: inherit;
+}
+    .header{
+        padding: 0;
+    }
+    .header nav{
+        height: 100px;;
+    }
+    .content{
+        padding: 0 10px;
+        margin-bottom: 30px;;
+    }
+article, .bigger{
+    flex: 0 100%;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+article h3{
+    font-size: 35px;
+    text-overflow: none;
+}
+.section-title{
+    width: 100%;
+    line-height: 70px;
+}
+
+h1 a{
+    margin: 20ps auto;
+}
+header nav ul{
+    display: block;
+
+}
+header nav ul li {
+    margin: 20px 0;
+}
+#contact ul li {
+    font-size: 12px;
+}
