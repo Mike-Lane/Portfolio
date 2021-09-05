@@ -3,3 +3,7 @@ In this project I was tasked with creating a portfolio application to showcase m
 
 Link to portfolio: https://mike-lane.github.io/Portfolio/
 
+![image](https://user-images.githubusercontent.com/88682940/132143866-daf6ff54-2945-4831-8b57-cdef20903443.png)
+
+
+
