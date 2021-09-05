@@ -23,9 +23,36 @@ body{
     font-family: '8BIT WONDER Nominal', Arial, Helvetica, sans-serif; 
     background-color: #1f2833;
     color: var(--tertiary-color);
+    font-size: 22px;
 }
+section {
+    padding: 100px;
+}
+
+.content {
+    padding: 20px 125px;
+    text-align: center;
+    line-height: 2em;
+    text-align: center;
+}
+.section-title {
+    font-size: 50px;
+    width: 50%;
+    padding-bottom: 35px;
+    border-bottom: solid 3px var(--primary-color);
+    margin: 0 auto 70px auto;
+    text-align: center;
+}
+.flex-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*End Body*/
+
 /*Header*/
 header {
+    background-color: #1f2833 ;
     padding: 20px 35px;
     display: flex;
     justify-content: space-between;
@@ -78,6 +105,7 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+/*End Hero*/
 
 /*Hero*/
 .hero {
@@ -86,14 +114,6 @@ header nav ul li a:hover {
     padding: 10px 10px;
     justify-content: center;
     margin: 100px 0;
-}
-
-.section-title {
-    width: 50%;
-    padding-bottom: 15px;
-    border-bottom: solid 3px var(--primary-color);
-    margin: 0 auto 40px auto;
-    text-align: center;
 }
 
 .avatar {
@@ -114,8 +134,94 @@ header nav ul li a:hover {
     }
   }
 
-  .about {
-      padding: 20px 125px;
-      text-align: center;
-      line-height: 2em;
-  }
+/*End Hero*/
+
+/*Begin About*/
+/*End About*/
+
+/*Begin Work*/
+
+.work-row{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ article{
+     width: 50%;
+     height: 500px;
+     flex: 1;
+     border: solid 2px var(--primary-color);
+     margin: 20px 50px;
+     padding: 50px;
+     display: block;
+ }
+ article a{
+     text-decoration: none;
+     text-stroke: 12px black;
+ }
+ article a:hover{
+    color: var(--tertiary-color);
+    border-radius: 15px;
+    text-shadow: none;
+ }
+
+ .bigger{
+     flex-basis: 75%;
+ }
+ article h3{
+     font-size: 45px;
+     text-align: center;
+     margin: 0 auto;
+     color: var(--primary-color);
+ }
+
+ .run-buddy {
+     background-image: url("../assets/images/run-buddy-clip.png");
+     background-position: center;
+     opacity: .5;
+     background-size: cover; 
+    }
+
+.fighting-robots{
+    background-image: url(../assets/images/fighting-robots.png);
+    background-position: center;
+    opacity: .5;
+    background-size: cover;
+}
+
+.tbd{
+    background-image: url(../assets/images/tbd.png);
+    background-position: center;
+    opacity: .5;
+    background-size: cover;
+}
+
+.run-buddy:hover, .fighting-robots:hover, .tbd:hover {
+    opacity: 1;
+}
+
+/*End Work*/
+
+/*Begin Contact*/
+#contact ul {
+    text-align: center;
+    }
+
+#contact ul li {
+    margin: 50px;
+    list-style: none;
+     color: var(--primary-color);
+}
+#contact a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: var(--tertiary-color);
+}
+
+
+/*End Contact*/
