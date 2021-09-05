@@ -1,0 +1,121 @@
+/*Color*/
+:root {
+    --primary-color: #66fcf1;
+    --secondary-color: #45a29e;
+    --tertiary-color: #c5c6c7;
+}
+/*Font (SUPER COOL!!!!!)*/
+@font-face {
+    font-family: '8BIT WONDER Nominal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('8BIT WONDER Nominal'), url('8-BIT WONDER.woff') format('woff');
+    }
+/*Applied to everything*/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+/*Body*/
+body{
+    font-family: '8BIT WONDER Nominal', Arial, Helvetica, sans-serif; 
+    background-color: #1f2833;
+    color: var(--tertiary-color);
+}
+/*Header*/
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    display: flex;
+    margin: 0;
+}
+
+h1 a{
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+}
+
+header nav {
+    
+    margin: 7px 0;
+    display: flex;
+    text-decoration: none;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+header nav ul li {
+    text-decoration: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav ul li a:hover {
+    color: var(--tertiary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/*Hero*/
+.hero {
+    width: 100%;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.section-title {
+    width: 50%;
+    padding-bottom: 15px;
+    border-bottom: solid 3px var(--primary-color);
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.avatar {
+    width: 100%;
+    text-align: center;
+}
+.avatar img {
+    height: 200px;
+}
+
+.blink {
+    animation: blinker 3s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .about {
+      padding: 20px 125px;
+      text-align: center;
+      line-height: 2em;
+  }
