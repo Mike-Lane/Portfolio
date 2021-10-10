@@ -148,28 +148,28 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
 }
- article{
-     width: 50%;
-     height: 500px;
-     flex: 1;
-     border: solid 2px var(--primary-color);
-     margin: 20px 50px;
-     padding: 50px;
-     display: block;
- }
- article a{
-     text-decoration: none;
-     text-stroke: 12px black;
- }
- article a:hover{
+article{
+    width: 50%;
+    height: 500px;
+    flex: 1;
+    border: solid 2px var(--primary-color);
+    margin: 20px 50px;
+    padding: 50px;
+    display: block;
+}
+article a{
+    text-decoration: none;
+    text-stroke: 12px black;
+}
+article a:hover{
     color: var(--tertiary-color);
     border-radius: 15px;
     text-shadow: none;
- }
+}
 
- .bigger{
-     flex-basis: 75%;
- }
+.bigger{
+    flex-basis: 75%;
+}
  article h3{
      font-size: 45px;
      text-align: center;
@@ -191,8 +191,8 @@ header nav ul li a:hover {
     background-size: cover;
 }
 
-.tbd{
-    background-image: url(../assets/images/tbd.png);
+.destination-orlando{
+    background-image: url(../assets/images/destination-orlando.jpg);
     background-position: center;
     opacity: .5;
     background-size: cover;
